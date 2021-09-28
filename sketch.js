@@ -18,9 +18,9 @@ function setup() {
   Spaceship.addImage(spaceship);
   Spaceship.scale = 0.3;
 
-  Meteor = createSprite(width/2, height-250, 50, 60);
+  Meteor = createSprite(width/2, height-600, 50, 60);
   Meteor.addImage(meteor);
-  Meteor.scale = 0.6;
+  Meteor.scale = 0.1;
 
 }
 
